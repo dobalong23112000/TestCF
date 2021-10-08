@@ -1,5 +1,5 @@
-//Bai 1:
-
+//A
+//A1
 // function adjacentElementsProduct(inputArray) {
 //   let max;
 //   let positivenumbers = inputArray.filter((num) => num > 0);
@@ -19,7 +19,8 @@
 // }
 // console.log(adjacentElementsProduct([1, 2, 3, 7, -5, -2, -4]));
 
-// Bai 2:
+
+//A2
 // function alternatingSums(a) {
 //   let newarray = [];
 //   let sumeven = a.reduce(
@@ -35,13 +36,11 @@
 // }
 // console.log(alternatingSums([60, 40, 55, 75, 64]));
 
-// Bai 3:
+//B
 let $input = document.querySelector("#input");
 let $domain = document.querySelector("#domain");
-console.log($input);
 let $btn = $domain.getElementsByTagName("button");
 let $result = document.querySelector("#result");
-console.log($result);
 let url, shortdomain;
 $input.onchange = (e) => {
   url = e.target.value;
